@@ -1,5 +1,11 @@
+import TravelShopping from "./components/TravelShopping/TravelShopping";
+
 function App() {
-  return <div className="text-red-600">App</div>;
+  return (
+    <div>
+      <TravelShopping />
+    </div>
+  );
 }
 
 export default App;
